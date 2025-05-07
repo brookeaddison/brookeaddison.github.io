@@ -14,7 +14,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <img
-            src="../portfolioProfileImage.jpg"
+            src="/portfolioProfileImage.jpg"
             alt="Brooke Addison"
             className="w-[300px] cursor-pointer rounded-full shadow-lg shadow-indigo-900 transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-[0_0_50px_10px_rgba(75,0,130,0.7)] hover:shadow-indigo-600 md:w-[350px]"
           />
