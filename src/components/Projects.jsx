@@ -2,14 +2,16 @@ const projectsData = [
   {
     image: "/image1.png",
     title: "Undercoders Website",
-    repo: "",
+    repo: "https://github.com/brookeaddison/undercoders-ui",
     description:
       "Undercoders is a nonprofit initiative I'm actively building to increase access to coding education. This site is currently a fully responsive frontend UI, with planned expansions to include a dynamic blog, form handling, and backend integrations for future programs and user engagement.",
     technologies: ["Typescript", "MaterialUI", "React", "Next.js"],
+    demo: null,
   },
   {
     image: "/image2.png",
     title: "BadBank",
+    repo: "https://github.com/brookeaddison/BadBank_02",
     description:
       "A full-stack banking application built during the MIT xPRO Full Stack Development Bootcamp. Includes user authentication, account creation, deposits, withdrawals, and balance tracking using the MERN stack.",
     technologies: [
@@ -21,6 +23,38 @@ const projectsData = [
       "NodeJS",
       "JavaScript",
     ],
+    demo: null,
+  },
+  {
+    image: "/image3.png",
+    title: "FilterFlow",
+    repo: null,
+    description:
+      "A proprietary full-stack AI-powered system designed to enable customizable content filtering in long-form text. Currently in development, with a focus on ethical rewrite logic and user-defined control. Patent-pending.",
+    technologies: [
+      "React Native (Expo)",
+      "Flask (Python)",
+      "TypeScript",
+      "Node.js",
+      "Ngrok",
+      "REST APIs",
+    ],
+    demo: null,
+  },
+  {
+    image: "/image4.png",
+    title: "Personal Portfolio Website",
+    repo: "https://github.com/brookeaddison/brookeaddison.github.io",
+    description:
+      "This site was built to showcase my technical work, projects, and professional background. Fully responsive and designed for clarity, it combines smooth UX with an aesthetic tailored to my personal brand.",
+    technologies: [
+      "Vite",
+      "React",
+      "TailwindCSS",
+      "Javascript",
+      "Framer Motion",
+    ],
+    demo: "/",
   },
 ];
 
@@ -33,7 +67,7 @@ const ProjectCard = ({ project }) => {
         alt={project.title}
       />
       <div>
-        <h3 className="text-lg font-semibold tracking-tight textcolor-[#f7eef9]">
+        <h3 className="text-lg font-semibold tracking-tight text-[#f7eef9]">
           {project.title}
         </h3>
         <p className="mt-2 text-sm text-gray-700">{project.description}</p>
@@ -47,6 +81,32 @@ const ProjectCard = ({ project }) => {
             </span>
           ))}
         </div>
+        {(project.repo || project.demo) && (
+          <div className="mt-4 pt-3 border-t border-white/20">
+            <div className="flex flex-wrap gap-2">
+              {project.repo && (
+                <a
+                  href={project.repo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-full bg-indigo-200 px-4 py-1 text-xs font-semibold text-indigo-800 hover:bg-indigo-300 transition"
+                >
+                  View Code
+                </a>
+              )}
+              {project.demo && (
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block rounded-full bg-pink-100 px-4 py-1 text-xs font-semibold text-pink-700 hover:bg-pink-200 transition"
+                >
+                  Live Demo
+                </a>
+              )}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
@@ -56,7 +116,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex min-h-screen w-full flex-col items-center justify-center gap-16 md:gap-32"
+      className="flex min-h-screen w-full flex-col items-center justify-center gap-16 md:gap-32 mb-24 sm:mb-32"
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="grid grid-cols-1 xl:grid-cols-[400px_1fr] gap-12 xl:gap-24 items-start">
