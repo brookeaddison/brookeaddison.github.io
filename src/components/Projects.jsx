@@ -10,7 +10,7 @@ const projectsData = [
       "Flask",
       "Python",
       "PostgreSQL",
-      "OpenAI API",
+      "LLM API Integration",
       "Stripe",
       "Heroku",
     ],

@@ -31,20 +31,18 @@ const Hero = () => {
               Brooke Addison
             </h1>
             <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl font-light md:text-3xl">
-              Future Software Engineer ||
+              Founder & CEO, FilterFlow
             </h3>
             <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl font-light md:text-3xl">
-              Current Computer Science Student
+              Full-Stack Developer | AI Engineer
             </h3>
             <p className="md:text-base text-pretty text-sm text-gray-400">
-              Hi, I’m Brooke Addison—a future software engineer and current
-              computer science student with a passion for solving problems and
-              creating impactful, innovative solutions. I’m constantly exploring
-              new technologies, building hands-on projects, and collaborating
-              with others to grow as a developer. My goal is to use code as a
-              tool for positive change—whether through accessibility, education,
-              or real-world applications. Join me as I continue learning,
-              growing, and working to make a meaningful impact in tech.
+              I build AI systems that understand context, not just keywords. In
+              January 2026, I launched FilterFlow—a context-aware content
+              filtering platform with patent-pending technology. I'm passionate
+              about using code to solve real problems, close equity gaps in
+              tech, and build products that preserve what makes human
+              communication authentic.
             </p>
           </div>
         </motion.div>
