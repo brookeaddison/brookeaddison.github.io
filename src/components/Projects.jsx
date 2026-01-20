@@ -1,6 +1,6 @@
 const projectsData = [
   {
-    image: "/image3.png",
+    image: "/image3.svg",
     title: "FilterFlow",
     repo: null,
     description:
