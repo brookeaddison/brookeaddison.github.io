@@ -7,6 +7,7 @@ import {
   BiLogoReact,
   BiLogoPython,
   BiLogoGithub,
+  BiLogoPostgresql,
 } from "react-icons/bi";
 
 import {
@@ -31,6 +32,7 @@ const techIcons = [
   SiExpress,
   BiLogoPython,
   BiLogoGithub,
+  BiLogoPostgresql,
   SiVite,
   SiFramer,
 ];

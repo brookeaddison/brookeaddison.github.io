@@ -1,5 +1,22 @@
 const projectsData = [
   {
+    image: "/image3.png",
+    title: "FilterFlow",
+    repo: null,
+    description:
+      "A context-aware AI content filtering system with patent-pending Smart Context technology. Uses a two-pass AI architecture to intelligently filter content while preserving authorial voice and understanding context. Launched January 2026.",
+    technologies: [
+      "React Native",
+      "Flask",
+      "Python",
+      "PostgreSQL",
+      "OpenAI API",
+      "Stripe",
+      "Heroku",
+    ],
+    demo: "https://filterflow.co",
+  },
+  {
     image: "/image1.png",
     title: "Undercoders Website",
     repo: "https://github.com/brookeaddison/undercoders-ui",
@@ -22,22 +39,6 @@ const projectsData = [
       "React",
       "NodeJS",
       "JavaScript",
-    ],
-    demo: null,
-  },
-  {
-    image: "/image3.png",
-    title: "FilterFlow",
-    repo: null,
-    description:
-      "A proprietary full-stack AI-powered system designed to enable customizable content filtering in long-form text. Currently in development, with a focus on ethical rewrite logic and user-defined control. Patent-pending.",
-    technologies: [
-      "React Native (Expo)",
-      "Flask (Python)",
-      "TypeScript",
-      "Node.js",
-      "Ngrok",
-      "REST APIs",
     ],
     demo: null,
   },
