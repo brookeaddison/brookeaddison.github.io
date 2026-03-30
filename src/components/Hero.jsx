@@ -31,10 +31,10 @@ const Hero = () => {
               Brooke Addison
             </h1>
             <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl font-light md:text-3xl">
-              Founder & CEO, FilterFlow
+              Founder & Product Lead, FilterFlow
             </h3>
             <h3 className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl font-light md:text-3xl">
-              Full-Stack Developer | AI Engineer
+              Full-Stack Developer | AI Product Builder
             </h3>
             <p className="md:text-base text-pretty text-sm text-gray-400">
               I build AI systems that understand context, not just keywords. In
